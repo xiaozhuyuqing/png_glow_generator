@@ -1,0 +1,7 @@
+simple: true
+glow_color:
+  h: 165
+  s: 100
+  v: 100
+input: "~/图片/yuqing-cursor/raw_png"
+output: "~/图片/yuqing-cursor/output"

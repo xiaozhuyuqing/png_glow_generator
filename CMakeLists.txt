@@ -7,5 +7,5 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 
 find_package(PNG REQUIRED)
 
-add_executable(png_glow_generator src/main.cpp)
+add_executable(png_glow_generator src/main.cpp src/glow_converter.cpp)
 target_link_libraries(png_glow_generator PRIVATE PNG::PNG)

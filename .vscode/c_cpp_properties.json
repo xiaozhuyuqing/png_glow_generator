@@ -2,9 +2,12 @@
     "configurations": [
         {
             "name": "Linux",
+            "compileCommands": "${workspaceFolder}/build/compile_commands.json",
             "includePath": [
                 "${workspaceFolder}/src",
                 "/usr/include",
+                "/usr/include/c++/11",
+                "/usr/include/x86_64-linux-gnu/c++/11",
                 "/usr/local/include"
             ],
             "compilerPath": "/usr/bin/g++",
