@@ -42,6 +42,7 @@
 [Bb]uild/
 [Bb]uild-*/
 cmake-build-*/
+output/
 
 # CMake generated files
 CMakeFiles/
